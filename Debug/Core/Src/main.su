@@ -1,0 +1,13 @@
+main.c:63:6:Task_500ms	8	static
+main.c:67:6:Task_1000ms	8	static
+main.c:71:6:Task_1500ms	8	static
+main.c:75:6:Task_2000ms	8	static
+main.c:79:6:Task_2500ms	8	static
+main.c:83:5:__io_putchar	16	static
+main.c:93:5:main	8	static
+main.c:148:6:SystemClock_Config	72	static
+main.c:184:13:MX_TIM2_Init	32	static
+main.c:229:13:MX_USART2_UART_Init	8	static
+main.c:262:13:MX_GPIO_Init	16	static
+main.c:271:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:282:6:Error_Handler	4	static,ignoring_inline_asm
