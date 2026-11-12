@@ -61,23 +61,23 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 void Task_500ms(void) {
-    printf("[%lu ms] Task 500ms executed at tick\r\n");
+    printf("Task 500ms executed at tick\r\n");
 }
 
 void Task_1000ms(void) {
-    printf("[%lu ms] Task 1000ms executed at tick\r\n");
+    printf("Task 1000ms executed at tick\r\n");
 }
 
 void Task_1500ms(void) {
-    printf("[%lu ms] Task 1500ms executed at tick\r\n");
+    printf("Task 1500ms executed at tick\r\n");
 }
 
 void Task_2000ms(void) {
-    printf("[%lu ms] Task 2000ms executed at tick\r\n");
+    printf("Task 2000ms executed at tick\r\n");
 }
 
 void Task_2500ms(void) {
-    printf("[%lu ms] Task 2500ms executed at tick\r\n");
+    printf("Task 2500ms executed at tick\r\n");
 }
 
 int __io_putchar(int ch) {
