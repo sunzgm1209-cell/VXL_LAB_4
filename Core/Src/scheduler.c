@@ -44,7 +44,7 @@ static uint32_t Insert(void (*pF)(void), uint32_t delay, uint32_t period, uint32
 	}
 	uint8_t idx = 0;
 	uint32_t sum = 0;
-	while (idx < SCH_count && SCH_tasks_G[idx].Delay <= delay){
+	while (idx < SCH_count && sum + SCH_tasks_G[idx].Delay <= delay){
 		sum += SCH_tasks_G[idx].Delay;
 		idx++;
 	}
